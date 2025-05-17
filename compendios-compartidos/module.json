@@ -1,0 +1,107 @@
+{
+  "name": "compendios-compartidos",
+  "title": "Compendio de Compendios compartidos",
+  "description": "Una serie de compedios que pueden compartise entre los distintos modulos y mismo sistema de juego",
+  "version": "1.0.0",
+  "minimumCoreVersion": "10",
+  "compatibleCoreVersion": "11",
+  "author": "TuNombre",
+  "packs": [
+    {
+      "label": "Actores compartidos",
+      "type": "Actor",
+      "name": "actores-compartidos",
+      "path": "packs/actores.db",
+      "system": "dnd5e",
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "label": "Items compartidos",
+      "type": "Item",
+      "name": "item-compartidos",
+      "path": "packs/items.db",
+      "system": "dnd5e",
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "label": "Entradas compartidas",
+      "type": "JournalEntry",
+      "name": "entradas-compartidos",
+      "path": "packs/entradas.db",
+      "system": "dnd5e",
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "label": "Escenas compartidas",
+      "type": "Scene",
+      "name": "escenas-compartidos",
+      "path": "packs/escenas.db",
+      "system": "dnd5e",
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "label": "Macros compartidas",
+      "type": "Macro",
+      "name": "macros-compartidos",
+      "path": "packs/macros.db",
+      "system": "dnd5e",
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "label": "Tablas compartidas",
+      "type": "RollTable",
+      "name": "tablas-compartidos",
+      "path": "packs/tablas.db",
+      "system": "dnd5e",
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "label": "Sonido compartido",
+      "type": "Playlist",
+      "name": "sonidos-compartidos",
+      "path": "packs/lista-reproduccion.db",
+      "system": "dnd5e",
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Compendios compartidos",
+      "color": "#549d60",
+      "sorting": "m",
+      "packs": [
+        "actores-compartidos",
+        "item-compartidos",
+        "entradas-compartidos",
+        "escenas-compartidos",
+        "macros-compartidos",
+        "tablas-compartidos",
+        "sonidos-compartidos"
+      ]
+    }
+  ],
+  "url": "https://github.com/RPG2005/foundryVTT-Template-shared-compendiums",
+  "manifest": "https://github.com/turepo/compendios-compartidos/releases/latest/download/module.json",
+  "download": "https://github.com/turepo/compendios-compartidos/releases/latest/download/module.zip"
+}
